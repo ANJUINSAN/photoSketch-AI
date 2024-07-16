@@ -1,0 +1,44 @@
+.item{
+    width: 330px;
+    
+   
+
+}
+.item p{
+    margin: 6px 0px;
+}
+.item-prices{
+    display: flex;
+    gap: 20px;
+}
+.item-price-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+.item-price-old{
+color: #8c8c8c;
+font-size: 18px;
+font-weight: 600;
+text-decoration: line-through;
+}
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6;
+}
+.item-cont{
+    display: flex;
+}
+.likebtn{
+    border: none;
+    margin-top:0px ;
+    margin-left: 100px;
+    background: none;
+color: red;
+
+
+}
+.likebtn img{
+    height: 20px;
+    width: 20px;
+}
